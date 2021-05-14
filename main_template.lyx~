@@ -1,0 +1,396 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+%　Variable setting
+\def\universityEn{National Chiao Tung University}
+\def\universityCh{國立交通大學}
+\def\collegeEn{College of Engineering}
+\def\collegeCh{資訊學院}
+\def\instituteEn{institute　name}
+\def\instituteCh{系所名稱}
+\def\degree{Master in Science}
+\def\titleCh{論文名稱}
+\def\titleEn{Title of Thesis}
+\def\studentEn{English Name}
+\def\studentCh{中文姓名}
+\def\advisorEn{Teng-Hu Cheng}
+\def\advisorCh{程登湖}
+\def\defenseYear{2020}\def\defenseYearROC{109}
+\def\defenseMonth{7}\def\defenseMonthEn{July}
+
+% watermark
+\usepackage{background}
+\backgroundsetup{
+  contents={\includegraphics[]{./Figures/logo.jpg}},
+  scale=1,
+  opacity=0.4,
+  angle=0
+}
+
+% line height
+\linespread{1.5}
+\usepackage{setspace}
+
+% indentation
+\usepackage{indentfirst}
+\setlength{\parindent}{0.88cm}
+
+% page numbering  
+\usepackage{fancyhdr}
+%\fancyhf{}
+%\cfoot{\thepage}
+%\pagestyle{fancy}
+
+% no header and footer bar
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% language setting
+\usepackage{fontspec} 
+\usepackage{xeCJK}
+\XeTeXlinebreaklocale "zh" 
+\XeTeXlinebreakskip = 0pt plus 1pt 
+%\setmainfont[Mapping=tex-text]{Times New Roman} % rm
+\setCJKmainfont{DFKai-SB} %xelatex 標楷體
+%\setmainfont{Times New Roman} 
+\usepackage[english]{babel}
+
+\usepackage{algorithmic}
+\floatname{algorithm}{Algorithm}
+
+% rename TOC and Chapter
+\addto\captionsenglish{%
+\renewcommand{\contentsname}{Table of Contents}}
+\usepackage{titletoc}
+\usepackage{titlesec}
+\titleformat{\section}
+{\normalfont\Large\bfseries\filcenter}{Chapter \thesection}{1em}{}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-traditional
+\language_package none
+\inputencoding utf8-cjk
+\fontencoding global
+\font_roman "default" "Times New Roman"
+\font_sans "default" "Times New Roman"
+\font_typewriter "default" "Times New Roman"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style cjk
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{Covers/Sample_Cover.tex}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% README : 
+\end_layout
+
+\begin_layout Plain Layout
+
+% 1.
+ modify the variables in 
+\begin_inset Quotes jld
+\end_inset
+
+Document -> Setting -> LaTex Preamble
+\begin_inset Quotes jrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% 2.
+ please see the Covers/Sample_Cover.tex and follow the instruction.
+\end_layout
+
+\begin_layout Plain Layout
+
+% Note : 
+\end_layout
+
+\begin_layout Plain Layout
+
+% while seeing the warning message 
+\begin_inset Quotes jld
+\end_inset
+
+Include file 'path/Sample_content.lyx' has use-non-Tex-fonts set to 'false'
+ ...
+\begin_inset Quotes jrd
+\end_inset
+
+, please ignore it.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chengcheng_content.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Chapters/Introduction.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Chapters/Problem_formulation.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Chapters/Controller_design.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Chapters/Closed_loop_error_systems.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Chapters/stability_analysis.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Chapters/simulations.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Chapters/Conclusion.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{References}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "master,encr,ncr"
+options "IEEEtran"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
